@@ -1,0 +1,67 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- FastAPI / Uvicorn ---
+# Archivos de logs
+*.log
+
+# --- Entornos virtuales ---
+.env
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# --- Dependencias ---
+# Evita subir dependencias instaladas localmente
+site/
+lib/
+lib64/
+parts/
+sdist/
+develop-eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Archivos de configuración local ---
+# Variables de entorno y configuración privada
+*.env
+.env.*
+
+# --- IDEs / Editores ---
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+*.sublime-workspace
+*.sublime-project
+
+# --- SO específicos ---
+.DS_Store
+Thumbs.db
+
+# --- PyInstaller ---
+# Archivos de build y dist
+build/
+dist/
+*.spec
+
+# --- Testing ---
+.coverage
+.tox/
+.nox/
+pytest_cache/
+htmlcov/
+
+# --- MyPy / Pytype ---
+.mypy_cache/
+.pytype/
+
+# --- VSCode FastAPI Debug ---
+.vscode/
+
